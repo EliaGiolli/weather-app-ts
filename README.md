@@ -2,10 +2,10 @@
 A simple weather application that fetches real-time weather data using the OpenMeteo API. This project is built using HTML, TailwindCSS v4, and TypeScript without any additional libraries.
 
 ## Technologies Used
-**HTML**: The structure of the application.
-**TailwindCSS v4**: A utility-first CSS framework for styling the application.
-**TypeScript**: A superset of JavaScript that adds static types for better development experience.
-**OpenMeteo API**: A free weather API that provides current weather conditions.
+- **HTML**: The structure of the application.
+- **TailwindCSS v4**: A utility-first CSS framework for styling the application.
+- **TypeScript**: A superset of JavaScript that adds static types for better development experience.
+- **OpenMeteo API**: A free weather API that provides current weather conditions.
 
 ## Features
 1. Input a city name to get its weather data.
