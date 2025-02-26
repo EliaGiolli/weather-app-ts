@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Custom weather app</title>
+  </head>
+  <body class="bg-custom-gradient">
+    <main class="flex flex-col justify-center items-center text-center p-3">
+      <h1 class="main-title">Welcome to my custom weather app!</h1>
+
+      <section class="card">
+        <h2 class="secondary-title">Type in your city</h2>
+        <div class="flex flex-row justify-center items-center text-center w-full p-3 my-2">
+          <input type="text" id="apiInput">
+          <button class="hover:bg-sky-700" id="apiBtn">Click!</button>
+        </div>
+        <section id="apiDiv" class="w-1/2 h-auto bg-white rounded-md shadow-2xl py-2 px-3 my-3"></section>
+      </section>
+
+    </main>
+
+    <script src="./src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer base{
+    body{
+        font-family: 'Roboto', sans-serif;
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+      
+    }
+    button{
+        padding: 10px;
+        background-color: #32a3ef;
+        border: 1px solid black;
+        border-radius: 11px;
+        color: #fff;
+    }
+    input{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 11px;
+        margin-right: 10px;
+    }
+}
+
+@layer utilities{
+    .bg-custom-gradient {
+        background-image: linear-gradient(to right, #ffffff, #32a3ef);
+      }
+
+    .main-title{
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 11px; 
+
+    }
+
+    .secondary-title{
+        font-size: 25px;
+        font-weight: semibold;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .card{
+        width: 50%;
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 11px;
+        box-shadow: 0 25px 25px;
+    }
+}
